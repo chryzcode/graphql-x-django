@@ -30,7 +30,7 @@ class Question(models.Model):
     )
 
     TYPE = (
-        (0, _('Multiple Choice'))
+        (0, _('Multiple Choice')),
     )
 
     quiz = models.ForeignKey(Quizzes, related_name='question', on_delete= models.DO_NOTHING)
