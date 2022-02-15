@@ -36,8 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'books',
     'graphene_django',
+
+    'books',
+    'quiz',
 ]
 
 
