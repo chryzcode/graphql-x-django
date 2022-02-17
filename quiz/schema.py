@@ -22,7 +22,7 @@ class QuestionType(DjangoObjectType):
 class AnswerType(DjangoObjectType):
     class Meta:
         model = Answer
-        fields = ('questions', 'answer_text')
+        fields = ('question', 'answer_text')
 
 class Query(graphene.ObjectType):
     
